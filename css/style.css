@@ -22,6 +22,8 @@ header
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
 }
 
+
+
 .logo
 {
     text-decoration: none;
@@ -31,6 +33,11 @@ header
     font-size: 1.8em;
 }
 
+.navigation
+{
+    margin-left: 20em;
+}
+
 .navigation a
 {
     color: #44599a;
@@ -38,6 +45,7 @@ header
     font-size: 1.5em;
     font-weight: 600;
     padding-left: 30px;
+    margin-left: 80px;
     transition: 0.5s ease;
 }
 
@@ -234,7 +242,7 @@ padding-right: 30px;
     color: #ffff;
 }
 
-@media (max-width:1023px)
+@media (max-width:1552px)
 {
     header
     {
@@ -284,7 +292,7 @@ padding-right: 30px;
   }
   
   /* في الشاشات الصغيرة */
-  @media (max-width: 1023px) {
+  @media (max-width: 1552px) {
     .navigation {
       display: none;
       flex-direction: column;
@@ -294,6 +302,7 @@ padding-right: 30px;
       right: 0;
       width: 100%;
       text-align: center;
+      margin-left: 1em;
       z-index: 10;
     }
   
@@ -301,11 +310,13 @@ padding-right: 30px;
       padding: 15px 0;
       color: white;
       display: block;
+      margin-left: 30px;
     }
   
     .menu-toggle {
       display: block;
       color: rgb(0, 0, 0);
+      margin-left: 4em;
     }
   
     .navigation.active {
